@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>main</title>
+    <link rel="stylesheet" href="plugins/swiper.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+</head>
+<body>
+    <!--banner轮播区域-->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="images/banner01.jpg" alt="">
+            </div>
+            <div class="swiper-slide"><img src="images/banner01.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/banner01.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/banner01.jpg" alt=""></div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <div class="txtArea">
+        <div class="top">
+            <a href="javascript:;" class="returnBtn"></a>
+            <form action="">
+                <label>
+                    <input type="text" placeholder="目的地/景点/酒店/活动"/>
+                </label>
+            </form>
+        </div>
+        <div class="bot clearfix">
+            <div class="pic"><img src="images/cityPosition.png" alt=""/></div>
+            <div class="info_text">
+                <p>
+                    <span>温哥华</span>
+                    <img src="images/weather.png" alt=""/>
+                    <span class="wen_du">23C</span>
+                </p>
+                <p>
+                    Vancouver
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 导航-->
+    <div class="nav">
+        <ul class="flex">
+            <li>
+                <a href="javascript:;">
+                    <img src="images/sight.png" alt=""/><br>
+                    <span>景点</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/bar.png" alt=""/><br>
+                    <span>酒店</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/plane2.png" alt=""/><br>
+                    <span>玩乐</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/strge.png" alt=""/><br>
+                    <span>攻略</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/flag.png" alt=""/><br>
+                    <span>跟团</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/person.png" alt=""/><br>
+                    <span>结伴</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/car.png" alt=""/><br>
+                    <span>用车</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/order.png" alt=""/><br>
+                    <span>定制</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="main">
+        <!-- 标题-->
+        <div class="title">
+            <h4>
+                 好玩推荐
+                <span>探索目的地的花样玩法</span>
+            </h4>
+        </div>
+        <!-- 风景展示-->
+        <ul></ul>
+    </div>
+</body>
+</html>
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="plugins/swiper-3.4.1.min.js"></script>
+<script src="js/resize.js"></script>
+<script src="js/Maindata.js"></script>
+<script>
+    $(function(){
+        GetData.init();
+    })
+</script>

@@ -1,0 +1,22 @@
+{
+    "code":200,
+    "data":[
+        {"imgsrc":"mainSign01.jpg","name":"加拿大艾斯省国家自驾公园一日游","price":2000,"place":"温哥华","people":118,"critse":1000},
+        {"imgsrc":"mainSign02.jpg","name":"加拿大艾斯省国家自驾公园一日游","price":2200,"place":"加拿大","people":135,"critse":1400},
+        {"imgsrc":"mainSign03.jpg","name":"加拿大艾斯省国家自驾公园一日游","price":2400,"place":"毕华阁","people":452,"critse":1300},
+        {"imgsrc":"mainSign04.jpg","name":"加拿大艾斯省国家自驾公园一日游","price":2300,"place":"温哥华","people":142,"critse":1000},
+        {"imgsrc":"mainSign05.jpg","name":"加拿大艾斯省国家自驾公园一日游","price":2200,"place":"温哥华","people":455,"critse":1300},
+        {"imgsrc":"mainSign06.jpg","name":"加拿大艾斯省国家自驾公园一日游","price":2500,"place":"温哥华","people":128,"critse":1000},
+        {"imgsrc":"mainSign07.jpg","name":"加拿大艾斯省国家自驾公园一日游","price":2400,"place":"温哥华","people":228,"critse":1000},
+        {"imgsrc":"mainSign08.jpg","name":"加拿大艾斯省国家自驾公园一日游","price":2300,"place":"温哥华","people":448,"critse":1500},
+        {"imgsrc":"mainSign09.jpg","name":"加拿大艾斯省国家自驾公园一日游","price":2200,"place":"温哥华","people":418,"critse":1500},
+        {"imgsrc":"mainSign10.jpg","name":"加拿大艾斯省国家自驾公园一日游","price":2500,"place":"温哥华","people":228,"critse":2000},
+        {"imgsrc":"mainSign03.jpg","name":"加拿大艾斯省国家自驾公园一日游","price":2400,"place":"毕华阁","people":452,"critse":1300},
+        {"imgsrc":"mainSign04.jpg","name":"加拿大艾斯省国家自驾公园一日游","price":2300,"place":"温哥华","people":142,"critse":1000},
+        {"imgsrc":"mainSign05.jpg","name":"加拿大艾斯省国家自驾公园一日游","price":2200,"place":"温哥华","people":455,"critse":1300},
+        {"imgsrc":"mainSign06.jpg","name":"加拿大艾斯省国家自驾公园一日游","price":2500,"place":"温哥华","people":128,"critse":1000},
+        {"imgsrc":"mainSign07.jpg","name":"加拿大艾斯省国家自驾公园一日游","price":2400,"place":"温哥华","people":228,"critse":1000}
+    ]
+
+
+}

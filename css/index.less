@@ -1,0 +1,108 @@
+@sw:30rem;
+//header-----------------------------------------------------------------------------------
+.header{
+      height:60/@sw;margin:15/@sw 0;
+      a{
+                display:inline-block;width:44/@sw;height:37/@sw;margin:15/@sw 20/@sw;
+      }
+      a.earPhone{
+                  background:url(../images/ear.jpg) no-repeat center/cover;
+      }
+      a.talk{
+              background:url(../images/talk.jpg) no-repeat  center/cover;
+      }
+      input{
+             width:460/@sw;font-size:24/@sw;border-radius:8/@sw;padding:0 50/@sw;
+             height:60/@sw;background:#f4f4f4  url(../images/navicon.png) no-repeat 20/@sw  center;
+            background-size:24/@sw  24/@sw;
+      }
+    　::-webkit-input-placeholder {color:#999;}
+    　::-moz-placeholder {color:#999}
+    　::-moz-placeholder {color:#999;}
+      ::-ms-input-placeholder {color:#999}
+}
+
+//main---------------------------------------------------------------------------------------------
+.main{
+      border-top:1px solid #eeeeee;height:100%;
+      //main      左边-------------------------------------------------------------------------
+      .mainLeft{
+            width:180/@sw;float:left;height:100%;
+            ul{background:#eeeeee;height:100%}
+            ul li{
+                  height:78/@sw;background:#f8f8f8;line-height:78/@sw;text-align:center;
+                  border-bottom:1px solid #eeeeee;box-sizing: border-box;
+                 a{
+                      font-size:30/@sw;color:#333;display:block;
+                 }
+            }
+            ul li.active{
+                color:#5deae2;border-left:4/@sw solid #5deae2;background:#fff;
+            }
+            ul li.active a{
+              color:#5deae2;
+            }
+
+      }
+   //main     右边-----------------------------------------------------------------------------
+      .mainRight{
+             float:left;margin-left:25/@sw;width:520/@sw;
+            h3{
+                height:83/@sw;font-size:30/@sw;line-height:83/@sw;font-weight:normal;padding-left:40/@sw;
+            }
+            h3.hot{
+                background:url(../images/hot.png) no-repeat left center;background-size:28/@sw 28/@sw;
+            }
+            h3.plane{
+                background:url(../images/plane.png) no-repeat left center;background-size:28/@sw 28/@sw;
+                    .total{
+                            float:right;font-size:20/@sw;color:#999;
+                    }
+              }
+            ol{
+                  li{
+                    width: 49%;;height:160/@sw;margin-bottom:12/@sw;
+                        img{
+                              width:100%;height:100%;
+                        }
+                  }
+            }
+            .park{
+                  .cont{height:280/@sw;margin-bottom:12/@sw;
+                        img{
+                              width:100%;height:100%;
+                        }
+                  }
+                 .cont:last-child{
+                     margin-bottom:130/@sw;
+                 }
+            }
+      }
+}
+
+//导航---------------------------------------------------------------------------------------------------
+.nav{
+      background:#fff;text-align:center;position:fixed;bottom:0;border-top:1px solid #eeeeee;width:100%;
+      a{
+          display:inline-block;font-size:18/@sw;color:#666;margin:0 40/@sw;width:100/@sw;
+          background: no-repeat center;background-size:46/@sw 46/@sw;padding-top:80/@sw;
+      }
+      a.index{background-image:url(../images/house.jpg);}
+      a.des{background-image:url(../images/map.jpg);}
+      a.tour{background-image:url(../images/tour.jpg);}
+      a.me{background-image:url(../images/me.jpg);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

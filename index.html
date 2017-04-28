@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>index</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+    <!-- header-->
+    <div class="header flex">
+        <a href="javascript:;" class="earPhone"></a>
+        <input type="text" placeholder="目的地/景点/酒店/活动"/>
+        <a href="javascript:;" class="talk"></a>
+    </div>
+    <!--main-->
+    <div class="main clearfix">
+        <div class="mainLeft">
+            <ul>
+                <li><a href="javascript:;">热门</a></li>
+                <li><a href="main.html">加拿大</a></li>
+                <li class="active"><a href="javascript:;">美国</a></li>
+                <li><a href="javascript:;">墨西哥</a></li>
+                <li><a href="javascript:;">加勒比海</a></li>
+                <li><a href="javascript:;">南美</a></li>
+                <li><a href="javascript:;">新西兰</a></li>
+                <li><a href="javascript:;">澳大利亚</a></li>
+                <li><a href="javascript:;">海岛</a></li>
+            </ul>
+        </div>
+        <div class="mainRight">
+            <!-- 热门目的地-->
+            <h3 class="hot">热门目的地</h3>
+            <ol class="flex">
+                <li><img src="images/wen.jpg"/></li>
+                <li><img src="images/wen.jpg"/></li>
+                <li><img src="images/wen.jpg"/></li>
+                <li><img src="images/wen.jpg"/></li>
+            </ol>
+            <!-- 玩转加拿大-->
+            <h3 class="plane">玩转加拿大<a href="javascript:;" class="total">全部 > </a></h3>
+            <div class="park">
+                <div class="cont"><img src="images/city.jpg" alt=""/></div>
+                <div class="cont"><img src="images/city.jpg" alt=""/></div>
+                <div class="cont"><img src="images/city.jpg" alt=""/></div>
+                <div class="cont"><img src="images/city.jpg" alt=""/></div>
+                <div class="cont"><img src="images/city.jpg" alt=""/></div>
+                <div class="cont"><img src="images/city.jpg" alt=""/></div>
+                <div class="cont"><img src="images/city.jpg" alt=""/></div>
+            </div>
+        </div>
+    </div>
+    <div class="nav flex">
+        <a href="javascript:;" class="index"><span>首页</span></a>
+        <a href="javascript:;" class="des"><span>目的地</span></a>
+        <a href="javascript:;" class="tour"><span>行程</span></a>
+        <a href="javascript:;" class="me"><span>我的</span></a>
+    </div>
+</body>
+</html>
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="js/resize.js"></script>
+<script>
+    $(function(){
+        var oLi=$(".mainLeft li");
+        oLi.click(function(){
+            $(this).addClass("active").siblings().removeClass("active");
+        });
+    });
+</script>
