@@ -42,9 +42,12 @@
         },
         //图片轮播-----------------------------------------------------------------
         bannerPlay:function(){
-            var swiper = new Swiper('.swiper-container', {
-                pagination: '.swiper-pagination',
-                paginationClickable: true
+            var swiper = new Swiper('.swiper-container',{
+                loop: true,
+                autoplay: 4000,
+                pagination : '.swiper-pagination',
+                paginationClickable :true,
+                autoplayDisableOnInteraction : false
             });
         }
     };

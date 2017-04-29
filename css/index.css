@@ -37,16 +37,13 @@
 }
 .main {
   border-top: 1px solid #eeeeee;
-  height: 100%;
 }
 .main .mainLeft {
   width: 6rem;
   float: left;
-  height: 100%;
 }
 .main .mainLeft ul {
   background: #eeeeee;
-  height: 100%;
 }
 .main .mainLeft ul li {
   height: 2.6rem;

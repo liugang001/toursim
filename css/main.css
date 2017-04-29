@@ -107,7 +107,6 @@ body {
   padding: 0 2.2rem;
   background-size: 0.86666667rem 0.86666667rem;
   color: #333;
-  font-weight: 600;
 }
 .main .title h4 span {
   font-size: 0.8rem;
@@ -131,6 +130,7 @@ body {
   line-height: 1.83333333rem;
   height: 1.83333333rem;
   color: #333;
+  font-weight:normal;
 }
 .main ul li .top_info p {
   float: right;
@@ -149,7 +149,7 @@ body {
 .main ul li .bot_info a {
   color: #999999;
   font-size: 0.73333333rem;
-  margin-right: 2rem;
+  margin-right: 1.66666667rem;
   padding-left: 1rem;
 }
 .main ul li .bot_info a.place {
